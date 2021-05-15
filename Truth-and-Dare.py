@@ -252,22 +252,82 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Solve a question from any given assignment right now."]
 
+########################################################### original code
+
+# @client.command(aliases = ['t'])
+
+# async def truth(ctx):
+
+#   await ctx.send(random.choice(truths))
+
+
+# @client.command(aliases = ['d'])
+
+# async def dare(ctx):
+  
+#   await ctx.send(random.choice(dares))
+
+############################################################
 
 
 @client.command(aliases = ['t'])
 
 async def truth(ctx):
-
+  
+  deletemsg=0
+  
   await ctx.send(random.choice(truths))
+  
+  await ctx.send(f"You have {waiting[0]} seconds to answer it")
+  
+  for num in reversed(range(waiting[0]+1)) :
+    
+    if(num<10 or num%10==0):
+      deletemsg=deletemsg+1
+      await ctx.send(num)
+  
+    if(num==0):
+      deletemsg=deletemsg+1
+      await ctx.send("Your time is up")
+    
+    time.sleep(0.75)
+  
+  time.sleep(2)
+  await ctx.channel.purge(limit=deletemsg)
+
 
 
 @client.command(aliases = ['d'])
 
 async def dare(ctx):
-  
+  deletemsg=0
   await ctx.send(random.choice(dares))
+  await ctx.send("You need to give a proof of completing your dare task")
+  await ctx.send(f"You have {waiting[0]} seconds to complete it")
+  
+  for num in reversed(range(waiting[0]+1)) :
+    
+    if(num<10 or num%10==0):
+      deletemsg=deletemsg+1
+      await ctx.send(num)
+    
+    if(num==0):
+      deletemsg=deletemsg+1
+      await ctx.send("Your time is up")
+    
+    time.sleep(0.75)
+  
+  time.sleep(2)
+  await ctx.channel.purge(limit=deletemsg)
+  await ctx.send("We dont have time , next please !")
+ 
 
+@client.command()
+async def set(ctx,waitingtime=60):
+  await ctx.send(f"Time limit has been set to {waitingtime}")
+  waiting.pop(0)
+  waiting.append(waitingtime)
 
 
 keep_alive()
-client.run('ODQyODY3NDewrsaDY1.YJ7jcg.wWLwkaBA_SsfhsosfaXROuQlU')
+client.run('#Your bot id #') ##never upload your bot id online discord will reset its key
