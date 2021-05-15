@@ -19,27 +19,36 @@ status = cycle(['With Friends','With Parents','With Love','With Yourself'])
 
 @tasks.loop(seconds=5)
 async def change_status():
-  await client.change_presence(activity=discord.Game(f'{next(status)} | t.help'))  
+  await client.change_presence(activity=discord.Game(f'{next(status)} | .help'))  
+
+  
+@client.event
+async def on_command_error(ctx, error):
+  if isinstance(error, commands.CommandNotFound):
+    await ctx.send('Invalid Command Used. Type .help to know the commands')
+                       
+  if isinstance(error, commands.MissingRequiredArgument):
+    await ctx.send('Give proper values to the command an argument is missing')
+  
 
 
-
-truths = ["What’s the last lie you told?",
+truths = ["Whatâ€™s the last lie you told?",
 
 "Whose chats/calls do you ignore the most in this room?"
 ,
-"What’s your most bizarre nickname?"
+"Whatâ€™s your most bizarre nickname?"
 ,
-"What’s been your most physically painful experience?"
+"Whatâ€™s been your most physically painful experience?"
 ,
-"What’s the craziest thing you’ve done on public transportation?"
+"Whatâ€™s the craziest thing youâ€™ve done on public transportation?"
 ,
 "If you met a genie, what would your three wishes be?/n You cannot say 'n' more wishes."
 ,
-"What’s one thing you’d do if you knew there no consequences?"
+"Whatâ€™s one thing youâ€™d do if you knew there no consequences?"
 ,
-"What’s the craziest thing you’ve done in front of a mirror?"
+"Whatâ€™s the craziest thing youâ€™ve done in front of a mirror?"
 ,
-"What’s the meanest thing you’ve ever said about someone else?"
+"Whatâ€™s the meanest thing youâ€™ve ever said about someone else?"
 ,
 "Who are you most jealous of?"
 ,
@@ -49,55 +58,55 @@ truths = ["What’s the last lie you told?",
 ,
 "Do you believe in any superstitions? If so, which ones and why?"
 ,
-"What’s your most embarrassing habit?"
+"Whatâ€™s your most embarrassing habit?"
 ,
 "Have you ever considered cheating on a partner? If yes then why?"
 ,
 "If you were guaranteed to never get caught, who on Earth would you murder?"
 ,
-"What’s the cheapest gift you’ve ever gotten for someone else?"
+"Whatâ€™s the cheapest gift youâ€™ve ever gotten for someone else?"
 ,
 "Which of your family members annoys you the most and why?"
 ,
-"What’s your biggest regret in life?"
+"Whatâ€™s your biggest regret in life?"
 ,
-"Have you ever regretted something you did to get a crush or partner’s attention?"
+"Have you ever regretted something you did to get a crush or partnerâ€™s attention?"
 ,
-"What’s one not so common job you could never do?"
+"Whatâ€™s one not so common job you could never do?"
 ,
 "If you switched genders for a day, what would you do?"
 ,
-"When’s the last time you made someone else cry and how?"
+"Whenâ€™s the last time you made someone else cry and how?"
 ,
-"What’s the most embarrassing thing you’ve done in front of a crowd?"
+"Whatâ€™s the most embarrassing thing youâ€™ve done in front of a crowd?"
 ,
-"If you could become invisible, what’s the worst thing you’d do?"
+"If you could become invisible, whatâ€™s the worst thing youâ€™d do?"
 ,
 "Have you ever farted and blamed it on someone else and to whom?"
 ,
-"What’s something you would die if your mom found out about?"
+"Whatâ€™s something you would die if your mom found out about?"
 ,
 "If you had one week to live and you had to marry someone in this room, who would it be?\nImagine everyone in your list is single."
 ,
 "List one negative thing about anyone in the room."
 ,
-"What’s the most sinful thing you’ve done in a house of worship?"
+"Whatâ€™s the most sinful thing youâ€™ve done in a house of worship?"
 ,
 "Who would you call to help bury a body?"
 ,
-"What’s the most embarrassing thing your parents have caught you doing?\nAhem ahem!"
+"Whatâ€™s the most embarrassing thing your parents have caught you doing?\nAhem ahem!"
 ,
-"When’s the last time you peed your pants?"
+"Whenâ€™s the last time you peed your pants?"
 ,
-"What’s your biggest insecurity?"
+"Whatâ€™s your biggest insecurity?"
 ,
 "If you could hire someone to do one thing for you, what would it be?"
 ,
-"What’s the best lie/brag you’ve ever told anyone?"
+"Whatâ€™s the best lie/brag youâ€™ve ever told anyone?"
 ,
-"What’s the weirdest thing you’ve ever done in a bathroom? Ahem Ahem!"
+"Whatâ€™s the weirdest thing youâ€™ve ever done in a bathroom? Ahem Ahem!"
 ,
-"What’s the biggest secret you’ve kept from your parents?"
+"Whatâ€™s the biggest secret youâ€™ve kept from your parents?"
 ,
 "If you were rescuing people from a burning building and you had to leave one person behind from this room, who would it be?\nCruel isn't it :p"  
 ,
@@ -131,7 +140,7 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Talk in a different accent for one hour."
 ,
-"Apply soap on your face and don’t wash it for 10 minutes."
+"Apply soap on your face and donâ€™t wash it for 10 minutes."
 ,
 "Call up a restaurant and ask them the contact number of another restaurant."
 ,
@@ -141,7 +150,7 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Do jumping jacks for one minute."
 ,
-"Dial a random number and sing ‘Happy Birthday!’"
+"Dial a random number and sing â€˜Happy Birthday!â€™"
 ,
 "Talk like a robot for the next 15 minutes of the game."
 ,
@@ -201,11 +210,11 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Talk like Alexa or Siri."
 ,
-"Call your partner and inform. “It’s over.”"
+"Call your partner and inform. â€œItâ€™s over.â€"
 ,
 "Share your thoughts on relationships and marriage, like an expert."
 ,
-"Go out and shout “I don't want to die.” Three times."
+"Go out and shout â€œI don't want to die.â€ Three times."
 ,
 "Cry as if you just broke up with your loving partner. "
 ,
