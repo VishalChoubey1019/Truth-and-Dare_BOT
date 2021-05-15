@@ -30,6 +30,10 @@ async def on_command_error(ctx, error):
   if isinstance(error, commands.MissingRequiredArgument):
     await ctx.send('Give proper values to the command an argument is missing')
   
+  
+@client.command()
+async def clean(ctx, num = 1):
+  await ctx.channel.purge(limit = num+1)  
 
 
 truths = ["What’s the last lie you told?",
