@@ -122,13 +122,14 @@ truths = ["What’s the last lie you told?",
 ,
 "Do you think any girl loves you?"
 ,
-"Why is melody chocolate melody?
+"Why is melody chocolate melody?"
 ,
 "If you could get a bf from this room assuming everyone's single, who would it be?"
 ,
 "Who do you think hits on you the most in this room?"
 ,
-"Do you like any person sitting in this room"]
+"What is your biggest fantasy?"
+]
 
 
 
@@ -256,7 +257,7 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Start talking in babu shona totla language for the next 30minutes."
 ,
-"Go on a date with your gf oops sorry your single lmao
+"Go on a date with your gf oops sorry your single lmao"
 ,
 "Solve a question from any given assignment right now."
 ,
@@ -283,3 +284,9 @@ async def dare(ctx):
 
 keep_alive()
 client.run('ODQyODY3NDewrsaDY1.YJ7jcg.wWLwkaBA_SsfhsosfaXROuQlU')
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
