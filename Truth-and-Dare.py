@@ -131,6 +131,14 @@ truths = ["What’s the last lie you told?",
 "Who do you think hits on you the most in this room?"
 ,
 "What is your biggest fantasy?"
+,
+"When was the last time you lied?"
+,
+"When was the last time you cried?"
+,
+"What's your biggest fantasy?"
+,
+"What's something you're glad your mum doesn't know about you?"
 ]
 
 
@@ -267,7 +275,13 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Post this in your insta story the pic of your first crush"
 ,
-"Solve JEE Advance 2021 Physics first question?"]
+"Solve JEE Advance 2021 Physics first question?"
+,
+"Do 100 squats"
+,
+"Show the most embarrasing photo on your phone"
+,
+"Show your last 5 chats"]
 
 
 
