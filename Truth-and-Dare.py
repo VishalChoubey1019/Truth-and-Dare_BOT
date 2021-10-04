@@ -104,6 +104,8 @@ truths = ["What’s the last lie you told?",
 ,
 "What’s your biggest insecurity?"
 ,
+"What’s your wildest fantasy?"
+,
 "If you could hire someone to do one thing for you, what would it be?"
 ,
 "What’s the best lie/brag you’ve ever told anyone?"
@@ -176,6 +178,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Try to turn someone on in the room."
 ,
 "Kiss a stuffed toy/object passionately."
+,
+"Treat me with 3 plates of momo whenever we meet next."
 ,
 "Pick up a random book and read a chapter in the most seductive voice you can manage."
 ,
