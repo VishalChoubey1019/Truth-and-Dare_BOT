@@ -139,6 +139,8 @@ truths = ["What’s the last lie you told?",
 "What's your biggest fantasy?"
 ,
 "What's something you're glad your mum doesn't know about you?"
+,
+"what's your last web search history"
 ]
 
 
