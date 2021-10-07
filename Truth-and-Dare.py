@@ -283,7 +283,10 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Show the most embarrasing photo on your phone"
 ,
-"Show your last 5 chats"]
+"Show your last 5 chats"
+,
+"Order a zomato delivery for your friend!"
+]
 
 
 
