@@ -58,6 +58,8 @@ truths = ["What’s the last lie you told?",
 ,
 "What's the type of cloth your partner to wears that turns you on?"
 ,
+"What's your most embarrasing incident in front of your college professor?"
+,
 "Would you date your high school crush today?"
 ,
 "Do you believe in any superstitions? If so, which ones and why?"
