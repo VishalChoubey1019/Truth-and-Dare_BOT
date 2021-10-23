@@ -288,7 +288,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Show your last 5 chats"
 ,
 "Order a zomato delivery for your friend!"
-]
+,
+"Watch Boku no Pico with your crush"]
 
 
 
