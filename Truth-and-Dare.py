@@ -143,6 +143,10 @@ truths = ["What’s the last lie you told?",
 "What's something you're glad your mum doesn't know about you?"
 ,
 "what's your last web search history"
+,
+"When is the last time you wet the bed"
+,
+"What's the weirdest thing you have eaten"
 ]
 
 
@@ -289,7 +293,12 @@ dares = ["Call your crush or any random person you never talk and start a random
 ,
 "Order a zomato delivery for your friend!"
 ,
-"Watch Boku no Pico with your crush"]
+"Watch Boku no Pico with your crush"
+,
+"Bite a raw brinjal"
+,
+"Make out with a pillow"
+]
 
 
 
