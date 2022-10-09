@@ -147,6 +147,8 @@ truths = ["What’s the last lie you told?",
 "When is the last time you wet the bed"
 ,
 "What's the weirdest thing you have eaten"
+,
+"Have you ever peed in your dream that caused an actual leak"         
 ]
 
 
