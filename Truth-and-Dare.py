@@ -1,9 +1,12 @@
 from keep_alive import keep_alive
-
 import discord
 from discord.ext import commands,tasks
 from itertools import cycle
 import random
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 intents = discord.Intents(messages = True , guilds = True ,  reactions = True , members = True , presences = True)
 client  = commands.Bot(command_prefix = '.', intents = intents)
@@ -320,10 +323,4 @@ async def dare(ctx):
 
 
 keep_alive()
-client.run('ODQyODY3NDewrsaDY1.YJ7jcg.wWLwkaBA_SsfhsosfaXROuQlU')
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
+client.run(os.getenv('TOKEN'))

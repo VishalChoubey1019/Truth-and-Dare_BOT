@@ -16,7 +16,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) \
 1. Create a ```python``` virtual environment.
 2. Clone the repo ```gh repo clone VishalChoubey1019/Truth-and-Dare_BOT``` or download the repository.
 3. Go to the cloned/downloaded directory ``` Truth-and-Dare_BOT ``` 
-4. Run it.
+4. Install all the dependencies using ```pip install -r requirements.txt```
+5. Run it.
 
 
 ## Contributing
