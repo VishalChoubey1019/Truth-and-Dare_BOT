@@ -125,6 +125,8 @@ truths = ["What’s the last lie you told?",
 ,
 "Why are you still addicted to something that you know is bad?"
 ,
+"If you could swap lives with someone who would it be?"
+,
 "Have you ever hit on anyone's private part?What's their worst reaction"
 ,
 "Do you think any girl loves you?"
@@ -142,6 +144,8 @@ truths = ["What’s the last lie you told?",
 "When was the last time you cried?"
 ,
 "What's your biggest fantasy?"
+,
+"Who is the most surprising person to ever slide into your DMs?"
 ,
 "What's something you're glad your mum doesn't know about you?"
 ,
@@ -203,6 +207,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Treat me with 3 plates of momo whenever we meet next."
 ,
 "Pick up a random book and read a chapter in the most seductive voice you can manage."
+,
+"Let another person post a status on your behalf."
 ,
 "Say atleast one honest thing about every player in the room."
 ,
@@ -287,6 +293,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Solve a question from any given assignment right now."
 ,
 "Post this in your insta story the pic of your first crush"
+,
+"Let the other players go through your phone for one minute."
 ,
 "Solve JEE Advance 2021 Physics first question?"
 ,
