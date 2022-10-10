@@ -45,6 +45,8 @@ truths = ["What’s the last lie you told?",
 ,
 "What’s your most bizarre nickname?"
 ,
+"Would you ever consider cheating on your partner for one day?"
+,
 "What’s been your most physically painful experience?"
 ,
 "What’s the craziest thing you’ve done on public transportation?"
@@ -165,6 +167,8 @@ truths = ["What’s the last lie you told?",
 dares = ["Call your crush or any random person you never talk and start a random talk."
 ,
 "Belly dance, twerk or do the moonwalk in front of everyone."
+,
+"Lick the bathroom floor."
 ,
 "Quote or enact your favourite Bollywood celebrity!"
 ,
