@@ -157,7 +157,9 @@ truths = ["What’s the last lie you told?",
 ,
 "What's the weirdest thing you have eaten"
 ,
-"Have you ever peed in your dream that caused an actual leak"         
+"Have you ever peed in your dream that caused an actual leak"
+,
+"Have you ever peed,farted and coughed at the same time?"
 ]
 
 
@@ -273,6 +275,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Act as if your parents caught you m@$turb@t!ng."
 ,
 "Drink 1L of water right now."
+,
+" Drink beer from your friend's shoe"
 ,
 "Dance but no one should record."
 ,
