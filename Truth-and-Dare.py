@@ -49,6 +49,8 @@ truths = ["What’s the last lie you told?",
 ,
 "What’s been your most physically painful experience?"
 ,
+"When was the last time you lied to yourself?"
+,
 "What’s the craziest thing you’ve done on public transportation?"
 ,
 "If you met a genie, what would your three wishes be?/n You cannot say 'n' more wishes."
@@ -193,6 +195,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Remove your socks with your teeth."
 ,
 "Do jumping jacks for one minute."
+,
+"Dance for 10 mins."
 ,
 "Dial a random number and sing ‘Happy Birthday!’"
 ,
