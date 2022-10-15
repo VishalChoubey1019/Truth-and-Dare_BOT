@@ -325,6 +325,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Make out with a pillow"
 ,
 "Mail your father that you have 5 backlogs"
+,
+"Slap yourself 5 times"
 ]
 
 
