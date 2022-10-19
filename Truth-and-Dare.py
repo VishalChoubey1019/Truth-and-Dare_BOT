@@ -155,6 +155,8 @@ truths = ["What’s the last lie you told?",
 ,
 "what's your last web search history"
 ,
+"Have your girlfrind ever called you somewhere and send you home?"
+,
 "When is the last time you wet the bed"
 ,
 "What's the weirdest thing you have eaten"
@@ -175,6 +177,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Lick the bathroom floor."
 ,
 "Quote or enact your favourite Bollywood celebrity!"
+,
+"Act like you are peeing in public for 30 seconds"
 ,
 "Try putting your entire fist in your mouth!"
 ,
