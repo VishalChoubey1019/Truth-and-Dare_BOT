@@ -63,6 +63,8 @@ truths = ["What’s the last lie you told?",
 ,
 "Who are you most jealous of?"
 ,
+"What is your darkest desire?"
+,
 "What's the type of cloth your partner to wears that turns you on?"
 ,
 "What's your most embarrasing incident in front of your college professor?"
@@ -185,6 +187,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Call a person(opposite sex) and tell him that he/she is the most handsome/beatuiful person you have ever seen."
 ,
 "Sing a romantic song."
+,
+"Try to kiss yourself in a hand-mirror in public"
 ,
 "Share an old, embarrassing picture from your FB album on your timeline."
 ,
