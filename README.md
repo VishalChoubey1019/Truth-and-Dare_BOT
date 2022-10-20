@@ -8,7 +8,7 @@ This is a python coded Truth and Dare Discord Bot which gives you different trut
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) \
+Use the package manager [pip](https://pip.pypa.io/en/stable/)
 
 
 ## How to Install
