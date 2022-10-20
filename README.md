@@ -4,7 +4,7 @@
 <a href="https://github.com/VishalChoubey1019/Truth-and-Dare_BOT/blob/main/LICENSE" alt="Lisence"><img src="https://img.shields.io/github/license/VishalChoubey1019/Truth-and-Dare_BOT"></a> <a href="https://github.com/VishalChoubey1019/Truth-and-Dare_BOT/issues" alt="Issues"><img src="https://img.shields.io/github/issues/VishalChoubey1019/Truth-and-Dare_BOT"></a> <a href="<_set your twitter id_>" alt="Twiter-Follow"><img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FVishalChoubey1019%2FTruth-and-Dare_BOT"></a>
 </p>
 
-This is a python coded Truth and Dare Discord Bot which gives you different questions and dares everytime you use the command.
+This is a python coded Truth and Dare Discord Bot which gives you different truths and dares everytime you use the command.
 
 ## Installation
 
