@@ -31,9 +31,12 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Made with ❤️ and Python <br><br>
+
 
 ## Contributors 
 <p align="center"><a href="https://github.com/VishalChoubey1019/Truth-and-Dare_BOT">
   <img src="https://contributors-img.web.app/image?repo=VishalChoubey1019/Truth-and-Dare_BOT" />
 </a></p>
+
+
+Made with ❤️ and Python <br><br>
