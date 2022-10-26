@@ -111,6 +111,8 @@ truths = ["What’s the last lie you told?",
 ,
 "What's your biggest fantasy?"
 ,
+"What is your dumbest idea to do in public with your friend?"
+,
 "Who is the most surprising person to ever slide into your DMs?"
 ,
 "What's something you're glad your mum doesn't know about you?"
@@ -191,6 +193,8 @@ dares = ["Call your crush or any random person you never talk and start a random
 "Say atleast one honest thing about every player in the room."
 ,
 "Do 20 push-ups."
+,
+"Try something stupid with your female teacher."
 ,
 "Eat 2-7 green chillies."
 ,
