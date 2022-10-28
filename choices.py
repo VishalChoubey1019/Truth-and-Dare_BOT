@@ -130,6 +130,7 @@ truths = ["What’s the last lie you told?",
 "Have you ever peed in your dream that caused an actual leak"
 ,
 "Have you ever peed,farted and coughed at the same time?"
+ 
 ]
 
 
@@ -139,6 +140,8 @@ truths = ["What’s the last lie you told?",
 dares = ["Call your crush or any random person you never talk and start a random talk."
 ,
 "Belly dance, twerk or do the moonwalk in front of everyone."
+,
+"Propose your teacher"
 ,
 "Lick the bathroom floor."
 ,
