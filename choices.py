@@ -1,6 +1,8 @@
 
 truths = ["What’s the last lie you told?",
-
+          
+"What's your biggest fear?"
+,
 "Whose chats/calls do you ignore the most in this room?"
 ,
 "What’s your most bizarre nickname?"
